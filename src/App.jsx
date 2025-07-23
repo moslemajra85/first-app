@@ -1,17 +1,15 @@
 
-import Message from "./components/Message"
-
+import Counter from "./components/Counter"
 
 const App = () => {
 
-  const text = "Ya Ibrahim Rani bech ndelik!"
+
 
 
   return (
-    <Message>
-      <h1 style={{ color: "red" }}>Error</h1>
-      <p>"Something Went Wrong</p>
-    </Message>
+
+
+    <Counter />
 
   )
 }

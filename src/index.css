@@ -1,0 +1,35 @@
+.content {
+  max-width: 450px;
+  border: 1px solid rgb(110, 104, 104);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 15px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.minus {
+  background-color: red;
+}
+
+.plus {
+  background-color: dodgerblue;
+}
+
+.heading {
+  padding: 15px;
+  border: 1px solid rgb(110, 104, 104);
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+}
