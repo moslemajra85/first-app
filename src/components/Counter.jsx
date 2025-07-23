@@ -1,14 +1,31 @@
 
 const Counter = () => {
+
+    let count = 0
+
+    const increment = () => {
+        count++
+        console.log(count);
+
+    }
+
+
+    const descrement = () => {
+        console.log("descrement");
+
+
+    }
+
+
     return (
         <div className="content">
             <h1 className="heading">
 
-                0
+                {count}
             </h1>
 
-            <button className="btn plus">+</button>
-            <button className="btn minus">-</button>
+            <button className="btn plus" onClick={increment}>+</button>
+            <button className="btn minus" onClick={descrement}>-</button>
 
         </div>
     )
