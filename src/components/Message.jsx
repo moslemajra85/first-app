@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Message = (props) => {
+const Message = ({ children }) => {
 
     //console.log(props);
     return (
-        <div>{props.content}</div>
+        <div style={{ border: "1px solid black", padding: "10px " }}>{children}</div>
     )
 }
 

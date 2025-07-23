@@ -1,17 +1,17 @@
 
 import Message from "./components/Message"
 
+
 const App = () => {
 
-  const text = "Ya Ibrahim Rani bech nkwair bik!"
+  const text = "Ya Ibrahim Rani bech ndelik!"
 
 
   return (
-    <div>
-      <Message content={text} />
-      <Message content="I love Vienna!" />
-      <Message content="🔦" />
-    </div>
+    <Message>
+      <h1 style={{ color: "red" }}>Error</h1>
+      <p>"Something Went Wrong</p>
+    </Message>
 
   )
 }
